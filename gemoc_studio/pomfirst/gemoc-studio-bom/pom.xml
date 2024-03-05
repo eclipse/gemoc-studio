@@ -25,7 +25,7 @@
 		<core.expressions-version>3.7.0</core.expressions-version>
 		<core.resources-version>3.13.800</core.resources-version>
 		<core.filesystem-version>1.7.700</core.filesystem-version>
-		<core.runtime-version>3.19.0</core.runtime-version>
+		<core.runtime-version>3.29.0</core.runtime-version>
 
 		<!-- Eclipse debug dependencies versions -->
 		<debug.core-version>3.15.0-SNAPSHOT</debug.core-version>
