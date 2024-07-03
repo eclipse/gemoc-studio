@@ -122,7 +122,7 @@ location ajdt "https://download.eclipse.org/tools/ajdt/426/dev/update" {
 	org.eclipse.ajdt.feature.group
 }
 
-location timesquare "https://timesquare.gitlabpages.inria.fr/updatesite/2021-09-02" {
+location timesquare "https://timesquare.gitlabpages.inria.fr/updatesite/latest" {
 	fr.inria.aoste.timesquare.feature.feature.group
 }
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="GEMOCStudio Target platform" sequenceNumber="1700842450">
+<target name="GEMOCStudio Target platform" sequenceNumber="1720016153">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.acceleo.feature.group" version="3.7.13.202304041222"/>
@@ -93,8 +93,8 @@
       <repository id="ajdt" location="https://download.eclipse.org/tools/ajdt/426/dev/update"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="fr.inria.aoste.timesquare.feature.feature.group" version="1.0.0.202109021545"/>
-      <repository id="timesquare" location="https://timesquare.gitlabpages.inria.fr/updatesite/2021-09-02"/>
+      <unit id="fr.inria.aoste.timesquare.feature.feature.group" version="1.0.0.202307261556"/>
+      <repository id="timesquare" location="https://timesquare.gitlabpages.inria.fr/updatesite/latest"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.emf.ecoretools.registration.feature.feature.group" version="3.3.0.201811051325"/>
@@ -119,50 +119,50 @@
       <repository id="jetty" location="https://download.eclipse.org/jetty/updates/jetty-bundles-9.x/9.4.44.v20210927"/>
     </location>
     <location includeDependencyDepth="infinite" includeDependencyScopes="compile,test" includeSource="true" missingManifest="generate" type="Maven" label="MavenDependencies">
-    <dependencies>
-    	<dependency>
-    		<groupId>org.eclipse.jetty.osgi</groupId>
-    		<artifactId>jetty-osgi-boot</artifactId>
-    		<version>10.0.6</version>
-    		<type>jar</type>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.apache.aries.spifly</groupId>
-    		<artifactId>org.apache.aries.spifly.dynamic.bundle</artifactId>
-    		<version>1.3.4</version>
-    		<type>jar</type>
-    	</dependency>
-    	<dependency>
-    		<groupId>com.ibm.icu</groupId>
-    		<artifactId>icu4j</artifactId>
-    		<version>70.1</version>
-    		<type>jar</type>
-    	</dependency>
-    	<dependency>
-    		<groupId>javax.servlet</groupId>
-    		<artifactId>javax.servlet-api</artifactId>
-    		<version>3.1.0</version>
-    		<type>jar</type>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.eclipse.jetty.websocket</groupId>
-    		<artifactId>websocket-javax-server</artifactId>
-    		<version>10.0.6</version>
-    		<type>jar</type>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.eclipse.jetty.toolchain</groupId>
-    		<artifactId>jetty-javax-websocket-api</artifactId>
-    		<version>1.1.2</version>
-    		<type>jar</type>
-    	</dependency>
-    	<dependency>
-    		<groupId>org.mapstruct</groupId>
-    		<artifactId>mapstruct</artifactId>
-    		<version>1.4.2.Final</version>
-    		<type>jar</type>
-    	</dependency>
-    </dependencies>
+      <dependencies>
+        <dependency>
+          <groupId>org.eclipse.jetty.osgi</groupId>
+          <artifactId>jetty-osgi-boot</artifactId>
+          <version>10.0.6</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.aries.spifly</groupId>
+          <artifactId>org.apache.aries.spifly.dynamic.bundle</artifactId>
+          <version>1.3.4</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>com.ibm.icu</groupId>
+          <artifactId>icu4j</artifactId>
+          <version>70.1</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>javax.servlet-api</artifactId>
+          <version>3.1.0</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.websocket</groupId>
+          <artifactId>websocket-javax-server</artifactId>
+          <version>10.0.6</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.eclipse.jetty.toolchain</groupId>
+          <artifactId>jetty-javax-websocket-api</artifactId>
+          <version>1.1.2</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.mapstruct</groupId>
+          <artifactId>mapstruct</artifactId>
+          <version>1.4.2.Final</version>
+          <type>jar</type>
+        </dependency>
+      </dependencies>
     </location>
   </locations>
   <targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>
